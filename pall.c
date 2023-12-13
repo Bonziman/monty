@@ -8,6 +8,7 @@
 */
 void f_pall(stack_t **head, unsigned int counter)
 {
+	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *h;
 	(void)counter;
 

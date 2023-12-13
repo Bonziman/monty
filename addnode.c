@@ -7,7 +7,7 @@
 */
 void addnode(stack_t **head, int n)
 {
-
+	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *new_node, *aux;
 
 	aux = *head;

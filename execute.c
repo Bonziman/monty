@@ -9,6 +9,7 @@
 */
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
+	bus_t bus = {NULL, NULL, NULL, 0};
 	instruction_t opst[] = {
 				{"push", f_push}, {"pall", f_pall}
 				};
