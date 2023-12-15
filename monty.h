@@ -38,7 +38,7 @@ typedef struct bus_s
 	int lifi;
 }  bus_t;
 extern bus_t bus;
-/**
+/*
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
  * @f: function to handle the opcode
@@ -58,7 +58,7 @@ void f_push(stack_t **head, unsigned int number);
 void f_pall(stack_t **head, unsigned int number);
 /**void f_pint(stack_t **head, unsigned int number);*/
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
-int getline(char **content, size_t *size, FILE *file);
+int c_getline(char **content, size_t *size, FILE *file);
 void free_stack(stack_t *head);
 /**void f_pop(stack_t **head, unsigned int counter);*/
 /**void f_swap(stack_t **head, unsigned int counter);*/
