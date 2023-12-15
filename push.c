@@ -4,7 +4,6 @@
  * @head: stack head
  * @counter: line_number
  * Return: no return
- * authur: Aymane Eloirdiwi
 */
 void f_push(stack_t **head, unsigned int counter)
 {

@@ -4,7 +4,6 @@
  * @head: stack head
  * @counter: no used
  * Return: no return
- * authur: Aymane Eloirdiwi
 */
 void f_pall(stack_t **head, unsigned int counter)
 {
